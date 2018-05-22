@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    cursor: url("Created_by_Fabiano_Coelho-Noun _Project.png"), auto;
+}
+
+.pixel-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.pixel {
+    border: .05px solid rgba(211,211,211,.5);
+    box-sizing: border-box;
+    width: 1%;
+    padding-bottom: 1%; 
+    background-color: white;
+}
+
+
+.color-pallete {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.colors {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.color-selected {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+
+
+
